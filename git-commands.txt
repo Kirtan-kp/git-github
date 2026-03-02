@@ -4,3 +4,6 @@ git add <file1> <file2>
 git add .    (for all files to be added)
 git commit
 git log
+git log --oneline
+git restore --staged <filename> (to remove the staged file from staging)
+git config --global core.editor "notepad"   (this will open notepad instead of vim (that is the git commit editor))
