@@ -1,0 +1,4 @@
+git --version , git status 
+git status then git init (iniitalization of the repo)
+git add <file1> <file2>
+git add .    (for all files to be added)
