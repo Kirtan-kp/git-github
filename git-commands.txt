@@ -11,4 +11,4 @@ git config --global core.editor "notepad"   (this will open notepad instead of v
 git ignore and git keep 
 git branch (tells at which branch)
 git branch <branch_name>  (make new branch)
-git switch <branch_name>   (takes the head to the branch_name)
+git switch <branch_name>   (takes the head to the branch_name) (you dont see stuff of other branches in your current branch damn... )
