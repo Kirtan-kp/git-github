@@ -8,3 +8,6 @@ git log --oneline
 git restore --staged <filename> (to remove the staged file from staging)
 git config --global core.editor "notepad"   (this will open notepad instead of vim (that is the git commit editor))
 git ignore and git keep 
+git branch (tells at which branch)
+git branch <branch_name>  (make new branch)
+git switch <branch_name>   (takes the head to the branch_name)
