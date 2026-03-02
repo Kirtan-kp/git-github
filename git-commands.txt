@@ -12,3 +12,5 @@ git ignore and git keep
 git branch (tells at which branch)
 git branch <branch_name>  (make new branch)
 git switch <branch_name>   (takes the head to the branch_name) (you dont see stuff of other branches in your current branch damn... )
+git branch -m <old-branch-name> <new-branch-name>
+git branch -d <branch-name>
