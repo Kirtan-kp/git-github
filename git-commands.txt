@@ -18,3 +18,12 @@ git diff --staged
 git diff <branch-name-one> <branch-name-two>
 git diff branch-name-one..branch-name-two
 git diff <commit-hash-one> <commit-hash-two>
+git stash   (gives temporary memory so you can switch between branches without commiting and then later commit the changes)
+git stash save "work in progress on X feature" (saving with name)
+git stash list  (all the stash currently)
+git stash apply (apply the top stash)
+git stash apply stash@{0} (apply the stash according to your choice)
+git stash pop  (it applies and then removes the stash at once)
+git stash drop
+git stash apply stash@{0} <branch-name>  (applies stash to specific branch)
+git stash clear
