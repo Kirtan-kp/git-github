@@ -38,3 +38,4 @@ git rebase    (when working on master branch then you made a new branch now some
               instead you make the master latest commit your new base and then work upon it avoiding 
               extra commit , ensure youre on the branch which needs to get rebase, mostly rebase is 
               used for the brances and not the master or main branch)
+le bhai rebase bhi seekh liya easy stuff
