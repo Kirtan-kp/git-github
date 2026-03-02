@@ -39,3 +39,7 @@ git rebase    (when working on master branch then you made a new branch now some
               extra commit , ensure youre on the branch which needs to get rebase, mostly rebase is 
               used for the brances and not the master or main branch)
 le bhai rebase bhi seekh liya easy stuff
+git reflog  (detailed log history and also used to go back to previous stuff)
+git reflog <commit-hash>  (see more detailes of that hash)
+git reset --hard <commit-hash>  (exact location based recovery)
+git reset --hard HEAD@{1}  (no of steps you want to go before )
