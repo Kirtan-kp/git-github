@@ -32,3 +32,9 @@ git tag -a <tag-name> -m "Release 1.0"  (annotated tags)
 git tag  (list of all tags)
 git tag <tag-name> <commit-hash> (tagginh specific hash code)
 git tag -d <tag-name> (deleting tags)
+git rebase    (when working on master branch then you made a new branch now someone commited to 
+              the master branch and you still want all the stuff of master branch on the new branch 
+              so you need to do extra commit on the new branch to load the master branch new content
+              instead you make the master latest commit your new base and then work upon it avoiding 
+              extra commit , ensure youre on the branch which needs to get rebase, mostly rebase is 
+              used for the brances and not the master or main branch)
